@@ -1,4 +1,4 @@
-prefix=/capstone/ros/install
+prefix=/home/workspace/CarND-Capstone/ros/install
 
 Name: styx_msgs
 Description: Description of styx_msgs

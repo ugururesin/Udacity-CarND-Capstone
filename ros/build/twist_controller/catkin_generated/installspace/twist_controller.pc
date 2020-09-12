@@ -1,4 +1,4 @@
-prefix=/capstone/ros/install
+prefix=/home/workspace/CarND-Capstone/ros/install
 
 Name: twist_controller
 Description: Description of twist_controller

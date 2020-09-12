@@ -1,4 +1,4 @@
-prefix=/capstone/ros/install
+prefix=/home/workspace/CarND-Capstone/ros/install
 
 Name: waypoint_updater
 Description: Description of waypoint_updater

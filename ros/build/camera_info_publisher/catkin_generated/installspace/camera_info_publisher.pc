@@ -1,4 +1,4 @@
-prefix=/capstone/ros/install
+prefix=/home/workspace/CarND-Capstone/ros/install
 
 Name: camera_info_publisher
 Description: Description of camera_info_publisher

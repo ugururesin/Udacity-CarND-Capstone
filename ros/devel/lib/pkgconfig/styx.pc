@@ -1,4 +1,4 @@
-prefix=/capstone/ros/devel
+prefix=/home/workspace/CarND-Capstone/ros/devel
 
 Name: styx
 Description: Description of styx

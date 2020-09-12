@@ -67,14 +67,14 @@ set(waypoint_loader_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(waypoint_loader_SOURCE_PREFIX /capstone/ros/src/waypoint_loader)
-  set(waypoint_loader_DEVEL_PREFIX /capstone/ros/devel)
+  set(waypoint_loader_SOURCE_PREFIX /home/workspace/CarND-Capstone/ros/src/waypoint_loader)
+  set(waypoint_loader_DEVEL_PREFIX /home/workspace/CarND-Capstone/ros/devel)
   set(waypoint_loader_INSTALL_PREFIX "")
   set(waypoint_loader_PREFIX ${waypoint_loader_DEVEL_PREFIX})
 else()
   set(waypoint_loader_SOURCE_PREFIX "")
   set(waypoint_loader_DEVEL_PREFIX "")
-  set(waypoint_loader_INSTALL_PREFIX /capstone/ros/install)
+  set(waypoint_loader_INSTALL_PREFIX /home/workspace/CarND-Capstone/ros/install)
   set(waypoint_loader_PREFIX ${waypoint_loader_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /capstone/ros/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/CarND-Capstone/ros/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
